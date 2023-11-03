@@ -1,0 +1,104 @@
+/*Order: Elements, Classes, ID, Selector*/
+/*Order: Position, Size, Shape, Color   */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;400;700;1000");
+
+:root {
+	--white: rgb(255, 255, 255);
+	--black: rgb(0, 0, 0);
+	--grey: rgb(75, 60, 75);
+	--gold: rgb(255, 190, 60);
+	--navy: rgb(0, 0, 75);
+	--red: rgb(190, 0, 75);
+	--green: rgb(0, 190, 75);
+	--blue: rgb(60, 75, 255);
+	--purple: rgb(75, 0, 190);
+	--turquoise: rgb(60, 190, 190);
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "DM Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+html {
+	background-color: var(--white);
+}
+
+header, footer {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--navy);
+	color: var(--white);
+}
+
+footer {
+	color: var(--gold);
+}
+
+nav {
+	display: flex;
+}
+
+main {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+div {
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 1000;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 1000;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 1000;
+}
+
+.button {
+	margin: 0px 10px;
+	padding: 10px;
+	display: flex;
+	border: none;
+	border-radius: 10px;
+	text-decoration: none;
+	background-color: var(--blue);
+	color: var(--white);
+	font-size: 20px;
+}
+
+.button:hover {
+	background-color: var(--purple);
+}
+
+.logo {
+	margin: 0px 10px 0px 0px;
+	align-items: baseline;
+	height: 40px;
+}
+
+.logo h1 {
+	color: var(--gold);
+}
+
+@media screen and (max-width: 900px) {
+	nav {
+		display: none;
+	}
+}
