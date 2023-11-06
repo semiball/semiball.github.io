@@ -1,5 +1,5 @@
 /*Order: @import, :root, *, Elements, Classes, IDs, Attributes, Selectors, Nesting Selectors, Pseudo-Elements, Pseudo-Classes, At-Rules*/
-/*Order: Position, Size, Shape, Color*/
+/*Order: Position, Size, Shape, Color, Function*/
 
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;400;700;1000");
 
@@ -91,6 +91,7 @@ h3 {
 	margin: 0px 10px 0px 0px;
 	align-items: baseline;
 	height: 40px;
+	user-select: none;
 }
 
 .logo h1 {
