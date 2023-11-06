@@ -51,6 +51,10 @@ main {
 	flex-direction: column;
 }
 
+section {
+	display: flex;
+}
+
 div {
 	display: flex;
 	align-items: center;
@@ -69,6 +73,12 @@ h2 {
 h3 {
 	font-size: 20px;
 	font-weight: 1000;
+}
+
+iframe {
+	height="300vmax"
+	width="100%"
+	border: none;
 }
 
 .button {
@@ -90,13 +100,12 @@ h3 {
 .logo {
 	margin: 0px 10px 0px 0px;
 	display: flex;
-	align-items: baseline;
+	align-items: end;
 	height: 40px;
 	user-select: none;
-	text-decoration: overline;
 	text-decoration-color: var(--gold);
 	text-decoration-thickness: 5px;
-	text-underline-offset: 8px;
+	text-underline-offset: -40px;
 }
 
 .logo h1 {
