@@ -89,9 +89,14 @@ h3 {
 
 .logo {
 	margin: 0px 10px 0px 0px;
+	display: flex;
 	align-items: baseline;
 	height: 40px;
 	user-select: none;
+	text-decoration: overline;
+	text-decoration-color: var(--gold);
+	text-decoration-thickness: 5px;
+	text-underline-offset: 8px;
 }
 
 .logo h1 {
