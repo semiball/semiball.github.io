@@ -1,5 +1,5 @@
-/*Order: Elements, Classes, ID, Selector*/
-/*Order: Position, Size, Shape, Color   */
+/*Order: @import, :root, *, Elements, Classes, IDs, Attributes, Selectors, Nesting Selectors, Pseudo-Elements, Pseudo-Classes, At-Rules*/
+/*Order: Position, Size, Shape, Color*/
 
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;400;700;1000");
 
@@ -95,6 +95,11 @@ h3 {
 
 .logo h1 {
 	color: var(--gold);
+}
+
+::selection {
+	color: var(--white);
+	background: var(--gold);
 }
 
 @media screen and (max-width: 900px) {
