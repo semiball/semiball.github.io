@@ -114,6 +114,7 @@ iframe {
 
 .gallery {
 	display: flex;
+	align-items: stretch;
 }
 
 .gallerycolumn {
