@@ -113,11 +113,13 @@ iframe {
 }
 
 .gallery {
+	gap: 20px;
 	display: flex;
 	align-items: stretch;
 }
 
 .gallerycolumn {
+	gap: 20px;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -127,10 +129,6 @@ iframe {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-}
-
-::-webkit-scrollbar {
-	display: none;
 }
 
 .lastsection {
