@@ -146,6 +146,6 @@ iframe {
 	}
 	
 	.gallery, .gallerycolumn {
-		gap: 0px;
+		gap: 5px;
 	}
 }
