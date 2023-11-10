@@ -144,4 +144,8 @@ iframe {
 	nav {
 		display: none;
 	}
+	
+	.gallery, .gallerycolumn {
+		gap: 0px;
+	}
 }
