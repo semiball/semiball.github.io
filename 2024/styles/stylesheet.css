@@ -88,12 +88,12 @@ iframe {
 	padding: 10px;
 	font-size: 20px;
 	display: flex;
+	text-decoration: none;
 	color: var(--white);
 }
 
 .button:hover {
-	background-color: var(--purple);
-	text-decoration: solid;
+	text-decoration: underline;
 }
 
 .logo {
