@@ -113,7 +113,7 @@ iframe {
 
 .logo:hover img {
 	margin-top: 0px;
-	transition: 1s ease-in;
+	transition: 0.5s;
 }
 
 .gallery {
