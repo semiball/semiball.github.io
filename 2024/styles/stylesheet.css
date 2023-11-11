@@ -109,6 +109,7 @@ iframe {
 .logo img {
 	margin-top: -15px;
 	height: 35px;
+	transition: 0.5s;
 }
 
 .logo:hover img {
