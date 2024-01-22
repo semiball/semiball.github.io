@@ -136,6 +136,14 @@ iframe {
 	object-fit: cover;
 }
 
+.imagesection {
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(to right, #BE004BAA, #3C4BFFAA), url("https://semiball.ch/2024/content/brand/Venetian%20Mask.jpg");
+}
+
 .lastsection {
 	margin-bottom: 0px;
 }
