@@ -149,7 +149,7 @@ iframe {
 	height: calc(100vh - 90px);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: var(--imageoverlay), url("https://semiball.ch/2024/content/brand/Venetian Mask.jpg");
+	background-image: var(--imageoverlay), url("https://semiball.ch/2024/content/images/semiball2024_imagesection.jpg");
 }
 
 .lastsection {
