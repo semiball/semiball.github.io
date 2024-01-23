@@ -15,8 +15,7 @@
 	--purple: rgb(75, 0, 190);
 	--turquoise: rgb(60, 190, 190);
 
-	--60%red: rgba(190, 0, 75, 0.6);
-	--60%blue: rgb(60, 75, 255, 0.6);
+	--imageoverlay: linear-gradient(to right, rgba(190, 0, 75, 0.6), rgba(60, 75, 255, 0.6));
 }
 
 * {
@@ -150,7 +149,7 @@ iframe {
 	height: calc(100vh - 90px);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: linear-gradient(to right, var(--60%red), var(--60%blue)), url("https://semiball.ch/2024/content/brand/Venetian%20Mask.jpg");
+	background-image: var(--imageoverlay), url("https://semiball.ch/2024/content/brand/Venetian Mask.jpg");
 }
 
 .lastsection {
