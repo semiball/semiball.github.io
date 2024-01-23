@@ -1,7 +1,7 @@
 /*Order: @import, :root, *, Elements, Classes, IDs, Attributes, Selectors, Nesting Selectors, Pseudo-Elements, Pseudo-Classes, At-Rules*/
 /*Order: Position, Size, Shape, Color, Function*/
 
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;400&family=Playfair+Display:wght@400;500;700;800");
+@import url("//fonts.googleapis.com/css2?family=DM+Sans:wght@200;400&family=Playfair+Display:wght@400;500;700;800");
 
 :root {
 	--white: rgb(255, 255, 255);
@@ -149,7 +149,7 @@ iframe {
 	height: calc(100vh - 90px);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: var(--imageoverlay), url("https://semiball.ch/2024/content/images/semiball2024_imagesection.jpg");
+	background-image: var(--imageoverlay), url("/2024/content/images/semiball2024_imagesection.jpg");
 }
 
 .lastsection {
