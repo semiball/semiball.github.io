@@ -107,7 +107,7 @@ section .button:hover {
 	transition: 0.5s;
 }
 
-nav.button {
+header .button, footer .button {
 	margin: 0px 10px;
 	padding: 10px;
 	font-size: 20px;
@@ -116,7 +116,7 @@ nav.button {
 	color: var(--white);
 }
 
-nav .button:hover {
+header .button:hover, footer .button:hover {
 	text-decoration: underline;
 }
 
@@ -172,6 +172,7 @@ nav .button:hover {
 	margin: 30px 50px -30px;
 	font-size: 100px;
 	font-weight: 800;
+	font-family: "Playfair Display", serif;
 	color: var(--white);
 }
 
