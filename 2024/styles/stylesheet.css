@@ -50,9 +50,12 @@ main {
 }
 
 section {
-	margin-bottom: 20px;
 	display: flex;
 	flex-direction: column;
+}
+
+section~section {
+	margin-top: 20px;
 }
 
 div {
@@ -91,11 +94,23 @@ iframe {
 	font-size: 20px;
 	display: flex;
 	text-decoration: none;
-	color: var(--white);
+	color: var(--black);
+	background-color: var(--gold);
+	width: min-content;
+	border-radius: 5px;
 }
 
 .button:hover {
 	text-decoration: underline;
+}
+
+nav.button {
+	margin: 0px 10px;
+	padding: 10px;
+	font-size: 20px;
+	display: flex;
+	text-decoration: none;
+	color: var(--white);
 }
 
 .logo {
@@ -138,13 +153,7 @@ iframe {
 	object-fit: cover;
 }
 
-.imagetext {
-	margin: 30px 50px -30px;
-	font-size: 100px;
-	color: var(--white);
-}
-
-.imagesection {
+.hero {
 	width: 100%;
 	height: calc(100vh - 90px);
 	background-size: cover;
@@ -152,8 +161,18 @@ iframe {
 	background-image: var(--imageoverlay), url("/2024/content/images/semiball2024_imagesection.jpg");
 }
 
-.lastsection {
-	margin-bottom: 0px;
+.hero p {
+	margin: 30px 50px -30px;
+	font-size: 100px;
+	font-weight: 800;
+	color: var(--white);
+}
+
+.hero small {
+	margin: 30px 50px -30px;
+	font-size: 50px;
+	font-weight: 600;
+	color: var(--white);
 }
 
 ::selection {
