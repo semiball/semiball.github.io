@@ -90,7 +90,7 @@ iframe {
 }
 
 section .button {
-	margin-top: 50px;
+	margin-top: 25px;
 	padding: 10px;
 	width: min-content;
 	font-size: 20px;
@@ -162,9 +162,7 @@ header .button:hover, footer .button:hover {
 }
 
 .hero {
-	justify-content: end;
-	width: 100vw;
-	height: calc(100vh - 90px);
+	height: calc(100vh - 190px);
 	padding: 50px;
 	background: var(--imageoverlay) center / cover no-repeat, url("https://semiball.ch/2024/content/images/semiball2024_imagesection.jpg") center / cover no-repeat;
 }
