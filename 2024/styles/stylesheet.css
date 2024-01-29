@@ -162,20 +162,20 @@ header .button:hover, footer .button:hover {
 }
 
 .hero {
-	height: calc(100vh - 190px);
+	height: calc(100vh - 90px);
 	padding: 50px;
 	background: var(--imageoverlay) center / cover no-repeat, url("https://semiball.ch/2024/content/images/semiball2024_imagesection.jpg") center / cover no-repeat;
 }
 
 .hero p {
-	font-size: 100px;
+	font-size: 90px;
 	font-weight: 800;
 	font-family: "Playfair Display", serif;
 	color: var(--white);
 }
 
 .hero small {
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: 600;
 	color: var(--white);
 }
@@ -188,7 +188,7 @@ header .button:hover, footer .button:hover {
 
 ::selection {
 	color: var(--white);
-	background: var(--gold);
+	background: var(--turquoise);
 }
 
 @media screen and (max-width: 900px) {
