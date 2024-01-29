@@ -25,6 +25,7 @@
 	font-size: 20px;
 	font-family: "Playfair Display", serif;
 	font-weight: 400;
+	scrollbar-width: none;
 }
 
 html {
@@ -189,6 +190,10 @@ header .button:hover, footer .button:hover {
 ::selection {
 	color: var(--white);
 	background: var(--turquoise);
+}
+
+::-webkit-scrollbar {
+	display: none;
 }
 
 @media screen and (max-width: 900px) {
