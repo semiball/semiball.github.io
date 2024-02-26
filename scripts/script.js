@@ -32,10 +32,10 @@ function addheader() {
 		logo.appendChild(logotext1);
 		logo.appendChild(logoimage);
 		logo.appendChild(logotext2);
-		nav.appendChild(navigationlink1);
-		nav.appendChild(navigationlink2);
-		nav.appendChild(navigationlink3);
-		nav.appendChild(navigationlink4);
+		navigation.appendChild(navigationlink1);
+		navigation.appendChild(navigationlink2);
+		navigation.appendChild(navigationlink3);
+		navigation.appendChild(navigationlink4);
 		header.appendChild(logo);
 		header.appendChild(navigation);
 }
