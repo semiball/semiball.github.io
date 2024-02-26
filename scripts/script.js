@@ -1,5 +1,5 @@
 function addheader() {
-	const newheader = document.querySelectorAll("header");
+	const header = document.querySelector("header");
 	const logo = document.createElement("a");
 		logo.classList.add("logo");
 		logo.href = "/";
@@ -36,8 +36,8 @@ function addheader() {
 		navigation.appendChild(navigationlink2);
 		navigation.appendChild(navigationlink3);
 		navigation.appendChild(navigationlink4);
-		newheader.appendChild(logo);
-		newheader.appendChild(navigation);
+		header.appendChild(logo);
+		header.appendChild(navigation);
 }
 
 document.addEventListener("DOMContentLoaded", addheader);
