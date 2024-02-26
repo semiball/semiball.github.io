@@ -29,16 +29,15 @@ function addheader() {
 		navigationlink4.href = "/kontakt";
 		navigationlink4.textContent = "Kontakt";
 	
-logo.appendChild(logotext1);
-logo.appendChild(logoimage);
-logo.appendChild(logotext2);
-nav.appendChild(navigationlink1);
-nav.appendChild(navigationlink2);
-nav.appendChild(navigationlink3);
-nav.appendChild(navigationlink4);
-
-header.appendChild(logo);
-header.appendChild(navigation);
+		logo.appendChild(logotext1);
+		logo.appendChild(logoimage);
+		logo.appendChild(logotext2);
+		nav.appendChild(navigationlink1);
+		nav.appendChild(navigationlink2);
+		nav.appendChild(navigationlink3);
+		nav.appendChild(navigationlink4);
+		header.appendChild(logo);
+		header.appendChild(navigation);
 }
 
-document.addEventListener("DOMContentLoaded", addHeader);
+document.addEventListener("DOMContentLoaded", addheader);
